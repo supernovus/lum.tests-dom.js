@@ -1,0 +1,35 @@
+{
+  "name": "@lumjs/tests-dom",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./declarations": "./lib/declarations.js",
+    "./documents": "./lib/documents/index.js",
+    "./documents/default": "./lib/documents/default.js",
+    "./documents/frameset": "./lib/documents/frameset.js",
+    "./documents/doctypes": "./lib/documents/doctypes.js",
+    "./documents/xml": "./lib/documents/xml.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.tests-dom.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.2.0",
+    "@lumjs/tests": "^1.5.0",
+    "@lumjs/dom": "^1.0.0",
+    "jsdom": "^20.0.0",
+    "jquery": "^3.6.0"
+  },
+  "scripts":
+  {
+    "-TODO-1": "Use `lumtest` once its available",
+    "test": "prove -e node --ext js ./test",
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
