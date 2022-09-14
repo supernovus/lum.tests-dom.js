@@ -11,6 +11,7 @@
     "./documents/frameset": "./lib/documents/frameset.js",
     "./documents/doctypes": "./lib/documents/doctypes.js",
     "./documents/xml": "./lib/documents/xml.js",
+    "./test": "./lib/test.js",
     "./package.json": "./package.json"
   },
   "license": "MIT",
