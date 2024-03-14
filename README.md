@@ -1,6 +1,10 @@
 # lum.tests-dom.js
 
-Helpers for working with tests that query DOM elements.
+Helpers for working with tests that use the (now deprecated)
+[@lumjs/dom](https://github.com/supernovus/lum.dom.js) package.
+
+I will shortly release an alternative to this package that uses my new
+[@lumjs/web-core](https://github.com/supernovus/lum.web-core.js) library.
 
 ## Official URLs
 
