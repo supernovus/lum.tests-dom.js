@@ -1,16 +1,10 @@
 {
   "name": "@lumjs/tests-dom",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "lib/index.js",
   "exports":
   {
     ".": "./lib/index.js",
-    "./declarations": "./lib/declarations.js",
-    "./documents": "./lib/documents/index.js",
-    "./documents/default": "./lib/documents/default.js",
-    "./documents/frameset": "./lib/documents/frameset.js",
-    "./documents/doctypes": "./lib/documents/doctypes.js",
-    "./documents/xml": "./lib/documents/xml.js",
     "./test": "./lib/test.js",
     "./package.json": "./package.json"
   },
@@ -21,9 +15,10 @@
     "url": "https://github.com/supernovus/lum.tests-dom.js.git"
   },
   "dependencies": {
-    "@lumjs/core": "^1.10.0",
+    "@lumjs/core": "^1.20.0",
     "@lumjs/tests": "^1.8.1",
     "@lumjs/dom": "^1.0.0",
+    "@lumjs/html-xml": "^1.0.0",
     "jsdom": "^20.0.0",
     "jquery": "^3.6.0"
   },
